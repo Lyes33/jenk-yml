@@ -1,0 +1,15 @@
+pipeline:
+  agent: 
+    any: 
+  tools: 
+    node: 21.6.2
+  stages: 
+    stage: 
+      - name: Build application 
+    steps:
+      - name: Build application   
+    stage:
+      - name: Testing
+    steps:
+    script: 
+      - npm i 
